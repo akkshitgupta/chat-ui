@@ -1,7 +1,7 @@
 import { BsFilter } from "react-icons/bs";
 import { IoSearch } from "react-icons/io5";
 
-export default function SearchBar(setFilter) {
+export default function SearchBar({ setFilter, filtered }) {
   return (
     <div className="inline-flex gap-2 text-gray-400 justify-center items-center bg-slate-900 px-3 py-3 w-full">
       <div className="p-2 bg-gray-700 w-5/6 inline-flex items-center justify-around rounded-xl">
@@ -16,7 +16,7 @@ export default function SearchBar(setFilter) {
       <BsFilter
         size="30px"
         color="currentColor"
-        onClick={(prev) => (console.log("filter"), setFilter(!prev))}
+        onClick={() => setFilter(!filtered)}
       />
     </div>
   );
