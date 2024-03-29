@@ -1,0 +1,155 @@
+{
+  "chats": [
+    {
+      "id": 6,
+      "name": "Michael Wilson",
+      "image": "https://example.com/michael_wilson.jpg",
+      "recentText": "I'll let you know once I confirm.",
+      "unreadMessages": 0,
+      "lastMessageTime": "17:30",
+      "online": true,
+      "isPinned": false
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "image": "https://example.com/jane_smith.jpg",
+      "recentText": "Sure, I'll be there on time.",
+      "unreadMessages": 0,
+      "lastMessageTime": "15:45",
+      "online": false,
+      "isPinned": false
+    },
+    {
+      "id": 8,
+      "name": "William Martinez",
+      "image": "https://example.com/william_martinez.jpg",
+      "recentText": "No problem, anytime!",
+      "unreadMessages": 0,
+      "lastMessageTime": "15:00",
+      "online": true,
+      "isPinned": false
+    },
+    {
+      "id": 12,
+      "name": "Daniel Kim",
+      "image": "https://example.com/daniel_kim.jpg",
+      "recentText": "No worries, take your time.",
+      "unreadMessages": 3,
+      "lastMessageTime": "13:45",
+      "online": true,
+      "isPinned": true
+    },
+    {
+      "id": 5,
+      "name": "Emma Brown",
+      "image": "https://example.com/emma_brown.jpg",
+      "recentText": "What's the plan for tonight?",
+      "unreadMessages": 3,
+      "lastMessageTime": "12:05",
+      "online": false,
+      "isPinned": false
+    },
+    {
+      "id": 4,
+      "name": "Bob Williams",
+      "image": "https://example.com/bob_williams.jpg",
+      "recentText": "Let's catch up sometime.",
+      "unreadMessages": 0,
+      "lastMessageTime": "09:10",
+      "online": true,
+      "isPinned": false
+    },
+    {
+      "id": 13,
+      "name": "Ava Patel",
+      "image": "https://example.com/ava_patel.jpg",
+      "recentText": "Let's discuss this later.",
+      "unreadMessages": 2,
+      "lastMessageTime": "08:55",
+      "online": false,
+      "isPinned": false
+    },
+    {
+      "id": 11,
+      "name": "Lily Nguyen",
+      "image": "https://example.com/lily_nguyen.jpg",
+      "recentText": "I'm running a bit late.",
+      "unreadMessages": 0,
+      "lastMessageTime": "yesterday",
+      "online": false,
+      "isPinned": false
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "image": "https://example.com/alice_johnson.jpg",
+      "recentText": "See you soon!",
+      "unreadMessages": 1,
+      "lastMessageTime": "yesterday",
+      "online": true,
+      "isPinned": false
+    },
+    {
+      "id": 7,
+      "name": "Olivia Lee",
+      "image": "https://example.com/olivia_lee.jpg",
+      "recentText": "Thanks for the update.",
+      "unreadMessages": 0,
+      "lastMessageTime": "Wed",
+      "online": false,
+      "isPinned": false
+    },
+    {
+      "id": 9,
+      "name": "Sophia Garcia",
+      "image": "https://example.com/sophia_garcia.jpg",
+      "recentText": "Can you send me the file?",
+      "unreadMessages": 1,
+      "lastMessageTime": "Mon",
+      "online": false,
+      "isPinned": false
+    },
+    {
+      "id": 14,
+      "name": "Ethan Gupta",
+      "image": "https://example.com/ethan_gupta.jpg",
+      "recentText": "I'm excited for the trip!",
+      "unreadMessages": 0,
+      "lastMessageTime": "22-Mar",
+      "online": true,
+      "isPinned": true
+    },
+    {
+      "id": 15,
+      "name": "Mia Chang",
+      "image": "https://example.com/mia_chang.jpg",
+      "recentText": "Let's meet at the usual spot.",
+      "unreadMessages": 1,
+      "lastMessageTime": "13-Mar",
+      "online": false,
+      "isPinned": false
+    },
+    {
+      "id": 10,
+      "name": "James Rodriguez",
+      "image": "https://example.com/james_rodriguez.jpg",
+      "recentText": "Sure thing!",
+      "unreadMessages": 0,
+      "lastMessageTime": "3-Mar",
+      "online": true,
+      "isPinned": true
+    },
+
+    {
+      "id": 1,
+      "name": "John Doe",
+      "image": "https://example.com/john_doe.jpg",
+      "recentText": "Hey, how are you?",
+      "unreadMessages": 2,
+      "lastMessageTime": "12-Feb",
+      "online": true,
+      "isPinned": false
+    }
+  ]
+}
