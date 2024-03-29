@@ -3,7 +3,7 @@ import { BsPinAngleFill } from "react-icons/bs";
 
 export default function ChatItem(chat) {
   return (
-    <div className="grid grid-cols-6 pt-3">
+    <div className="grid grid-cols-6 pt-3 bg-gray-800 text-gray-200">
       <div className="self-center justify-self-center">
         <DP />
       </div>
@@ -12,15 +12,17 @@ export default function ChatItem(chat) {
           <h5 className="font-semibold">{chat.chat.name}</h5>
           <p className="truncate text-sm">{chat.chat.recentText}</p>
         </div>
-        <div className="inline-grid grid-flow-dense pr-2 pb-4">
+        <div className="inline-grid grid-flow-dense text-center pr-2 pb-4">
           {chat.chat.lastMessageTime}
-          {chat.chat.isPinned && <BsPinAngleFill />}
-          <span
-            className={`${
-              chat.chat.unreadMessages === 0 ? "hidden" : "block"
-            } text-center rounded-lg bg-green-400 text-slate-900`}>
-            {chat.chat.unreadMessages}
-          </span>
+          <div className="inline-flex justify-around mt-1 items-center">
+            {chat.chat.isPinned && <BsPinAngleFill />}
+            <span
+              className={`${
+                chat.chat.unreadMessages === 0 ? "hidden" : "block"
+              } text-center px-1 rounded-lg bg-green-400 text-slate-900`}>
+              {chat.chat.unreadMessages}
+            </span>
+          </div>
         </div>
       </div>
     </div>

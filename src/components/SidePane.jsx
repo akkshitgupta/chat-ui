@@ -2,8 +2,8 @@ import { FaLock } from "react-icons/fa6";
 
 export default function SidePane() {
   return (
-    <section className="bg-gray-800 text-slate-200 col-span-4 h-screen overflow-y-auto">
-      <div className="w-2/3 grid mx-auto h-screen text-center">
+    <section className="lg:block hidden text-slate-200 col-span-4 h-screen overflow-y-auto">
+      <div className="w-2/3 grid mx-auto h-screen text-center fixed  bg-gray-800">
         <div className="self-end">
           <h1 className="text-6xl mb-4">WhatsApp Web</h1>
           <p>Send and recieve messages without keeping your phone online.</p>
