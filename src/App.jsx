@@ -6,7 +6,7 @@ import chatsData from "./data.json";
 
 function App() {
   return (
-    <main className="grid gap-0 grid-cols-6">
+    <main className="lg:grid gap-0 grid-cols-6">
       <section className="col-span-2 border-r-[0.5px] border-slate-300">
         <div className="sticky">
           <NavBar />
