@@ -12,14 +12,14 @@ export default function ChatItem(chat) {
           <h5 className="font-semibold">{chat.chat.name}</h5>
           <p className="truncate text-sm">{chat.chat.recentText}</p>
         </div>
-        <div className="inline-grid justify-end grid-flow-dense text-center px-5 pb-4">
+        <div className="inline-grid justify-end grid-flow-dense text-center text-xs pr-5 pb-4">
           {chat.chat.lastMessageTime}
-          <div className="inline-flex justify-end mt-1 items-center">
+          <div className="inline-flex justify-end mt-2 items-center">
             {chat.chat.isPinned && <BsPinAngleFill />}
             <span
               className={`${
                 chat.chat.unreadMessages === 0 ? "hidden" : "block"
-              } text-center ml-2 px-1 rounded-lg bg-green-400 text-slate-900`}>
+              } text-center ml-2 px-1.5 text-sm rounded-[50%] bg-green-400 text-slate-900`}>
               {chat.chat.unreadMessages}
             </span>
           </div>

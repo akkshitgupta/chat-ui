@@ -2,7 +2,7 @@ import ChatItem from "./ChatItem";
 
 export default function ChatList(chats, sort) {
   return (
-    <section className="overflow-y-scroll">
+    <section className="overflow-y-scroll ">
       {!sort ? (
         <>
           {chats.data &&
